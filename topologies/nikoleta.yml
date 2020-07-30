@@ -1,0 +1,15 @@
+---
+team: "nikoleta"
+source: "test"
+projects:
+  - name: "mytest"
+    zookeeper: []
+    producers: []
+    consumers: []
+    streams: []
+    connectors: []
+    topics: 
+      - name: topic1
+        config:
+          replication.factor: 3
+          num.partitions: 3
